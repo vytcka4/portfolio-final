@@ -2,15 +2,18 @@ import React, { useRef } from "react";
 import classes from "./Navbar.module.css";
 import { FaTimes, FaBars } from "react-icons/fa";
 
-const Navbar = React.forwardRef(function Navbar(props, ref) {
+const Navbar = function Navbar(props) {
   const navRef = useRef();
   const responsiveNav = () => {
     navRef.current.classList.toggle(`${classes.responsiveBtn}`);
   };
 
   return (
-    <header>
-      <nav ref={ref} className={classes["nav"]}>
+    <header className={classes.header}>
+      <button className={classes.navBtn} onClick={responsiveNav}>
+        <FaBars />
+      </button>
+      <nav ref={navRef} className={classes["nav"]}>
         <a className={classes.linkNav} href="#contact-container">
           Contact info
         </a>
@@ -23,15 +26,11 @@ const Navbar = React.forwardRef(function Navbar(props, ref) {
         <a className={classes.linkNav} href="main">
           Home
         </a>
-        <button className={classes.responsiveBtn}>
-          <FaTimes onClick={responsiveNav} />
+        <button className={classes.navBtn} onClick={responsiveNav}>
+          <FaTimes />
         </button>
       </nav>
-      <button className={classes.responsiveBtn}>
-        <FaBars onClick={responsiveNav} />
-      </button>
     </header>
   );
-});
-//
+};
 export default Navbar;
