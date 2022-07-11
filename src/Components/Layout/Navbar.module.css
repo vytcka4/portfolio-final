@@ -71,7 +71,6 @@ nav {
   box-shadow: 0.5px black;
   visibility: hidden;
   opacity: 0;
-  position: absolute;
   left: 40rem;
   top: 0.5rem;
 }
@@ -83,9 +82,13 @@ nav {
   .navBtn {
     visibility: visible;
     opacity: 1;
+    top: -0.5rem;
   }
   .hidden {
     visibility: hidden;
+  }
+  .responsive {
+    display: flex;
   }
 
   .linkNav {
@@ -96,6 +99,13 @@ nav {
     display: flex;
     height: 5vh;
     width: 100%;
+    flex-direction: row-reverse;
+  }
+
+  .responsiveHeader {
+    transform: translateY(0vh);
+    transition-duration: 1s;
+    height: 100vh;
     flex-direction: column;
     justify-content: center;
   }
@@ -114,15 +124,6 @@ nav {
     margin-bottom: 20rem;
   }
 
-  .responsive {
-    display: flex;
-  }
-  .responsiveHeader {
-    transform: translateY(0vh);
-    transition-duration: 1s;
-    height: 100vh;
-  }
-
   .navBtnClose {
     position: absolute;
     top: -40rem;
@@ -132,9 +133,6 @@ nav {
 }
 
 @media screen and (max-width: 540px) {
-  .navBtn {
-    left: 30rem;
-  }
   .navBtnClose {
     position: absolute;
     top: -35rem;
@@ -144,9 +142,6 @@ nav {
 }
 
 @media screen and (max-width: 420px) {
-  .navBtn {
-    left: 22rem;
-  }
   .navBtnClose {
     position: absolute;
     top: -50rem;
