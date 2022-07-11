@@ -67,40 +67,66 @@ nav {
   border: none;
   outline: none;
   color: white;
-  font-size: 1.8rem;
+  font-size: 2rem;
   box-shadow: 0.5px black;
   visibility: hidden;
   opacity: 0;
+  position: absolute;
+  left: 28rem;
+  top: 0.5rem;
 }
 .navBtn:hover {
   color: rgb(40, 38, 38);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 820px) {
   .navBtn {
     visibility: visible;
     opacity: 1;
   }
+  .hidden {
+    visibility: hidden;
+  }
 
-  nav {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    gap: 1.5rem;
-    justify-content: center;
+  .linkNav {
+    font-size: 32px;
   }
 
   .header {
-    height: 100%;
-    /* transform: translateY(-100vh); */
+    display: flex;
+    height: 5vh;
     width: 100%;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    transform: translateY(-100vh);
+    flex-direction: column;
+    justify-content: center;
   }
 
-  .responsiveBtn {
-    transform: none;
+  nav {
+    display: none;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav:first-child {
+    margin-bottom: 20rem;
+  }
+
+  .responsive {
+    display: flex;
+  }
+  .responsiveHeader {
+    transform: translateY(0vh);
+    transition-duration: 1s;
+    height: 100vh;
+  }
+
+  .navBtnClose {
+    position: absolute;
+    top: -40rem;
+    bottom: 2.5rem;
+    left: 27rem;
   }
 }
