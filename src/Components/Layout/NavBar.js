@@ -15,7 +15,7 @@ const Navbar = function Navbar(props) {
       </button>
       <nav ref={navRef} className={classes["nav"]}>
         <a className={classes.linkNav} href="#contact-container">
-          Contact info
+          Contact infos
         </a>
         <a className={classes.linkNav} href="#about-tittle">
           About me
