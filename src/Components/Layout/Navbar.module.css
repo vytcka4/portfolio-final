@@ -4,11 +4,11 @@
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
-  height: 3.5rem;
-  background-image: linear-gradient(
-    to left,
-    rgb(110, 112, 114),
-    rgb(190, 204, 223)
+  height: 8vh;
+  background: radial-gradient(
+    circle at center 125px,
+    rgb(25, 23, 23),
+    rgb(104, 96, 96)
   );
   position: fixed;
   margin: 0 auto;
@@ -36,7 +36,7 @@ nav {
   margin-right: 1rem;
 }
 .linkNav:hover {
-  color: rgb(40, 38, 38);
+  color: rgb(120, 114, 114);
   transform: translateY(-3px);
 }
 
@@ -78,7 +78,7 @@ nav {
   color: rgb(40, 38, 38);
 }
 
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 810px) {
   .navBtn {
     visibility: visible;
     opacity: 1;
@@ -105,7 +105,7 @@ nav {
   .responsiveHeader {
     transform: translateY(0vh);
     transition-duration: 1s;
-    height: 100vh;
+    height: 50vh;
     flex-direction: column;
     justify-content: center;
   }
@@ -124,30 +124,30 @@ nav {
     margin-bottom: 20rem;
   }
 
-  .navBtnClose {
+  /* .navBtnClose {
     position: absolute;
     top: -40rem;
     bottom: 2.5rem;
     left: 27rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 540px) {
-  .navBtnClose {
+  /* .navBtnClose {
     position: absolute;
     top: -35rem;
     bottom: 2.5rem;
     left: 30rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 420px) {
-  .navBtnClose {
+  /* .navBtnClose {
     position: absolute;
     top: -50rem;
     bottom: 2.5rem;
     left: 22rem;
-  }
+  } */
 
   .linkNav:hover {
     color: rgb(40, 38, 38);

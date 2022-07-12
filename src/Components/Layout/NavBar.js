@@ -1,4 +1,4 @@
-import React, { useRef, useState, useMemo } from "react";
+import React, { useState } from "react";
 import classes from "./Navbar.module.css";
 import { FaTimes, FaBars } from "react-icons/fa";
 
