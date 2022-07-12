@@ -14,10 +14,17 @@ function Main() {
         <div className={classes.allButtons}>
           <button className={classes.projectBtn}>Projects</button>
           <button>
-            <TbBrandLinkedin className={classes.icons}></TbBrandLinkedin>
+            <a
+              href="https://www.linkedin.com/in/vytautas-sidabras-875991204/"
+              target="blank"
+            >
+              <TbBrandLinkedin className={classes.icons}></TbBrandLinkedin>
+            </a>
           </button>
           <button>
-            <FaGithub className={classes.icons} />
+            <a href="https://github.com/vytcka4" target="blank">
+              <FaGithub className={classes.icons} />
+            </a>
           </button>
         </div>
       </div>

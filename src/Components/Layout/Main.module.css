@@ -50,6 +50,10 @@ main {
   border: none;
   background: none;
 }
+
+.allButtons button:hover {
+  cursor: pointer;
+}
 .allButtons button:first-child {
   width: 10rem;
   height: 4rem;

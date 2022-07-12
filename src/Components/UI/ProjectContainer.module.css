@@ -1,0 +1,14 @@
+.projectContainer {
+  display: flex;
+  width: 45%;
+  height: 20rem;
+  border: 1.5px solid rgb(11, 11, 11);
+  margin-top: 3rem;
+  margin-left: 3rem;
+  transition: 1.2s;
+  border-radius: 7%;
+}
+
+.projectContainer:hover {
+  transform: translateY(-10px);
+}
