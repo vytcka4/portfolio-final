@@ -4,12 +4,8 @@
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
-  height: 8vh;
-  background: radial-gradient(
-    circle at center 125px,
-    rgb(25, 23, 23),
-    rgb(104, 96, 96)
-  );
+  height: 8%;
+  background: radial-gradient(circle at center 125px, #29323c, #485563);
   position: fixed;
   margin: 0 auto;
   padding: 0 auto;
