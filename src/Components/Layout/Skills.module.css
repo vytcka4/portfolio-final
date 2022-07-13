@@ -1,0 +1,31 @@
+.skills {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.other {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+}

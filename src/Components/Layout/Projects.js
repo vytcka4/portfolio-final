@@ -2,8 +2,6 @@ import classes from "./Projects.module.css";
 import ProjectContainer from "../UI/ProjectContainer";
 import ProjectDescription from "../UI/ProjectDescription";
 
-const bankist = <p></p>;
-
 function Projects() {
   return (
     <div className={classes.allProjects}>

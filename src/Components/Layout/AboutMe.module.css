@@ -1,0 +1,8 @@
+.about {
+  width: 95vw;
+  height: 100vh;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  margin-top: 3rem;
+}
