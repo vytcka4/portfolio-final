@@ -26,10 +26,14 @@
   border-radius: inherit;
 }
 
-.imgContainer img {
+.imgContainer a img {
   object-fit: cover;
   overflow: hidden;
   width: 100%;
   height: 100%;
+  border-radius: inherit;
+}
+
+.imgContainer a {
   border-radius: inherit;
 }

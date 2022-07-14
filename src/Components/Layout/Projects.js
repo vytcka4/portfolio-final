@@ -10,7 +10,9 @@ function Projects() {
       <h2 className={classes.projects}>Projects</h2>
       <ProjectContainer>
         <div className={classes.imgContainer}>
-          <img src={bankistWeb} alt="bankist" />
+          <a href="https://vytcka4.github.io/bankist-website/" target="blank">
+            <img src={bankistWeb} alt="bankist" />{" "}
+          </a>
         </div>
         <ProjectDescription
           descprition={"HTML5 ,CSS, javaSript"}
@@ -20,7 +22,9 @@ function Projects() {
       </ProjectContainer>
       <ProjectContainer>
         <div className={classes.imgContainer}>
-          <img src={mapty} alt="mapty" />
+          <a href="https://vytcka4.github.io/Mapty/" target="blank">
+            <img src={mapty} alt="mapty" />
+          </a>
         </div>
         <ProjectDescription
           descprition={"HTML5 ,CSS, javaSript"}

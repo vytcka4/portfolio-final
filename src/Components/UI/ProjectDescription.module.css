@@ -21,7 +21,7 @@
 
 .container button {
   font-size: 1.2rem;
-  width: 5rem;
+  width: 7rem;
   height: 2.5rem;
   border-radius: 16px;
   transition: 0.5s;
@@ -37,13 +37,16 @@
 }
 
 .container h2 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  margin-bottom: 0rem;
 }
 
 .container h3 {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 0rem;
 }
 
 .container p {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
 }

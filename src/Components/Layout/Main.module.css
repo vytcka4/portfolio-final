@@ -76,3 +76,11 @@ main {
 .icons:hover {
   color: #485563;
 }
+
+.mainInfo {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
