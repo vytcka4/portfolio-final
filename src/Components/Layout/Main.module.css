@@ -53,17 +53,17 @@ main {
 .allButtons button:first-child {
   width: 10rem;
   height: 4rem;
-  background: rgb(104, 96, 96);
+  background: white;
   border: 1px solid black;
   font-size: 1.4rem;
   border-radius: 10px;
-  color: whitesmoke;
+  color: black;
   transition: 0.5s;
 }
 
 .allButtons button:first-child:hover {
-  background: white;
-  color: black;
+  background: #485563;
+  color: white;
 }
 
 .icons {
@@ -74,5 +74,5 @@ main {
 }
 
 .icons:hover {
-  color: rgb(107, 107, 201);
+  color: #485563;
 }
