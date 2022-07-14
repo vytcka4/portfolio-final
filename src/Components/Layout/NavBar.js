@@ -4,9 +4,17 @@ import { FaTimes, FaBars } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const Navbar = function Navbar(props) {
-  const [responsiveNavState, setResponsiveNavState] = useState();
+  const [responsiveNavState, setResponsiveNavState] = useState(false);
   const responsiveHandler = () => {
     setResponsiveNavState((state) => !state);
+  };
+
+  const turnOffNavBarHandler = () => {
+    if (responsiveNavState === true) {
+      setResponsiveNavState(false);
+    } else {
+      return;
+    }
   };
 
   let responsive;
@@ -39,6 +47,7 @@ const Navbar = function Navbar(props) {
           <FaTimes />
         </button>
         <Link
+          onClick={turnOffNavBarHandler}
           to="test1"
           spy={true}
           smooth={true}
@@ -49,6 +58,7 @@ const Navbar = function Navbar(props) {
           Contact info
         </Link>
         <Link
+          onClick={turnOffNavBarHandler}
           to="aboutMe"
           spy={true}
           smooth={true}
@@ -59,6 +69,7 @@ const Navbar = function Navbar(props) {
           About me
         </Link>
         <Link
+          onClick={turnOffNavBarHandler}
           to="projects"
           spy={true}
           smooth={true}
@@ -69,6 +80,7 @@ const Navbar = function Navbar(props) {
           Projects
         </Link>
         <Link
+          onClick={turnOffNavBarHandler}
           to="home"
           spy={true}
           smooth={true}
