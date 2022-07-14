@@ -1,34 +1,36 @@
 import classes from "./Skills.module.css";
-import {
-  DiJavascript,
-  DiHtml5,
-  DiCss3,
-  DiReact,
-  DiGit,
-  DiPython,
-  DiNodejs,
-} from "react-icons/di";
+import bootstrap from "../store/bootstrap.png";
+import js from "../store/js.png";
+import css from "../store/css.png";
+import html from "../store/html.png";
+import node from "../store/node.png";
+import python from "../store/python.png";
+import react from "../store/react.png";
+import mySql from "../store/mySql.png";
+
+import { DiGit } from "react-icons/di";
 
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiMysql, SiFigma } from "react-icons/si";
+import { SiFigma } from "react-icons/si";
 
 function Skills() {
   return (
     <div className={classes.skills}>
       <h2>Main skills:</h2>
       <div className={classes.main}>
-        <DiCss3 />
-        <DiHtml5 />
-        <DiJavascript />
-        <DiReact />
+        <img src={html} alt="html"></img>
+        <img src={css} alt="css"></img>
+        <img src={js} alt="javascript"></img>
+        <img src={react} alt="react"></img>
       </div>
       <h2>Other knowledge:</h2>
       <div className={classes.other}>
         <DiGit />
-        <DiPython />
-        <DiNodejs />
+        <img src={bootstrap} alt="botstrap"></img>
+        <img src={python} alt="python"></img>
+        <img src={node} alt="node"></img>
         <TbBrandNextjs />
-        <SiMysql />
+        <img src={mySql} alt="mySql"></img>
         <SiFigma />
       </div>
     </div>

@@ -5,7 +5,8 @@ import bankistWeb from "../store/bankistWeb.png";
 
 function Projects() {
   return (
-    <div className={classes.allProjects}>
+    <div className={classes.allProjects} id="projects">
+      <h2 className={classes.projects}>Projects</h2>
       <ProjectContainer>
         <div className={classes.imgContainer}>
           <img src={bankistWeb} alt="bankist" />

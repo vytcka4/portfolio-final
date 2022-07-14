@@ -1,23 +1,24 @@
 .projectContainer {
   display: flex;
   width: 45%;
-  height: 20rem;
+  height: 15rem;
   border: 1.5px solid rgb(11, 11, 11);
   margin-left: 2.5%;
   transition: 1.2s;
   border-radius: 10px;
   flex-direction: row;
   background-color: #5a6e84;
+  box-shadow: 20px 20px 50px 15px rgb(186, 182, 182);
 }
 
 .projectContainer:hover {
   transform: translateY(-10px);
 }
 
-.projectContainer:nth-child(1) {
+/* .projectContainer:nth-child(1) {
   margin-top: 3rem;
 }
 
 .projectContainer:nth-child(2) {
   margin-top: 3rem;
-}
+} */

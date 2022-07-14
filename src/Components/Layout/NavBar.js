@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import classes from "./Navbar.module.css";
 import { FaTimes, FaBars } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Navbar = function Navbar(props) {
   const [responsiveNavState, setResponsiveNavState] = useState();
@@ -37,18 +38,46 @@ const Navbar = function Navbar(props) {
         >
           <FaTimes />
         </button>
-        <a className={classes.linkNav} href="#contact-container">
+        <Link
+          to="test1"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          className={classes.linkNav}
+        >
           Contact info
-        </a>
-        <a className={classes.linkNav} href="#about-tittle">
+        </Link>
+        <Link
+          to="aboutMe"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={800}
+          className={classes.linkNav}
+        >
           About me
-        </a>
-        <a className={classes.linkNav} href="#projects-tittle">
+        </Link>
+        <Link
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={800}
+          className={classes.linkNav}
+        >
           Projects
-        </a>
-        <a className={classes.linkNav} href="main">
+        </Link>
+        <Link
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-20}
+          duration={800}
+          className={classes.linkNav}
+        >
           Home
-        </a>
+        </Link>
       </nav>
     </header>
   );

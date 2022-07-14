@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 
 function Main() {
   return (
-    <main className={classes["main"]}>
+    <main className={classes["main"]} id="home">
       <div className={classes.mainInfo}>
         <div className={classes.text}>
           <h1>Hi I'm Vytautas Sidabras,</h1>
