@@ -3,13 +3,47 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   text-align: center;
   color: white;
   text-shadow: 1px black;
+  align-items: center;
+  /* gap: -1rem; */
 }
 
 .container button a {
   direction: none;
   text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  font-size: 1rem;
+}
+
+.container button {
+  font-size: 1.2rem;
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 16px;
+  transition: 0.5s;
+}
+.container button:hover {
+  background-color: #485563;
+  color: white;
+  cursor: pointer;
+}
+
+.container button a:hover {
+  color: white;
+}
+
+.container h2 {
+  font-size: 1.5rem;
+}
+
+.container h3 {
+  font-size: 1rem;
+}
+
+.container p {
+  font-size: 0.7rem;
 }

@@ -34,6 +34,7 @@ nav {
 .linkNav:hover {
   color: rgb(120, 114, 114);
   transform: translateY(-3px);
+  cursor: pointer;
 }
 
 .linkNav-sticky {
