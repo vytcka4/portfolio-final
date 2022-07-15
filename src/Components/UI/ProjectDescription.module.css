@@ -52,9 +52,6 @@
 }
 
 @media only screen and (max-width: 360px) {
-  .container {
-    width: 35vh;
-  }
   .container p {
     margin-bottom: 1rem;
   }
@@ -64,4 +61,10 @@
 }
 
 @media only screen and (min-width: 361px) and (max-width: 480px) {
+  .container p {
+    margin-bottom: 1rem;
+  }
+  .container h2 {
+    margin-top: 0rem;
+  }
 } ;

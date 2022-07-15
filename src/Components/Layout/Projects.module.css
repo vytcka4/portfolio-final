@@ -1,6 +1,6 @@
 .allProjects {
   /* margin-top: 2rem; */
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -61,25 +61,19 @@
     height: 1rem;
     margin-bottom: 3rem;
   }
-  .imgContainer a {
-    width: 55vh;
-  }
 }
 @media only screen and (min-width: 361px) and (max-width: 480px) {
-  /* .allProjects {
-    width: 100vh;
+  .allProjects {
+    width: 100%;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 1.5rem;
+    height: 150vh;
   }
-
   .projects {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 0;
     height: 1rem;
     margin-bottom: 3rem;
   }
-  .imgContainer {
-    width: 60vh;
-  } */
 }
