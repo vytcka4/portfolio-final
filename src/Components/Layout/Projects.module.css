@@ -20,6 +20,7 @@
 }
 
 .imgContainer {
+  display: flex;
   width: 60%;
   height: 100%;
   object-fit: cover;
@@ -40,4 +41,22 @@
 
 .imgContainer a {
   border-radius: inherit;
+}
+@media screen and (max-width: 480px) {
+  .allProjects {
+    width: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .projects {
+    font-size: 2rem;
+    margin-bottom: 0;
+    height: 1rem;
+    margin-bottom: 3rem;
+  }
+  .imgContainer {
+    width: 60vh;
+  }
 }
