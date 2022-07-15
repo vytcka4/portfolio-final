@@ -51,24 +51,14 @@
   margin-bottom: 1.5rem;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 360px) {
   .container {
-    width: 40%;
+    width: 35vh;
+  }
+  .container p {
+    margin-bottom: 1rem;
   }
   .container h2 {
-    transform: translateY(-1rem);
-    margin-bottom: -1.2rem;
+    margin-top: 0rem;
   }
-
-  /* .container h3 {
-  } */
-
-  .container p {
-    margin-bottom: -0.5rem;
-  }
-  /* .container button {
-  } */
-
-  /* .container button a {
-  } */
 }

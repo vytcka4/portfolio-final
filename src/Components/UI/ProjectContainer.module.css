@@ -17,21 +17,15 @@
 
 @media only screen and (max-width: 360px) {
   .projectContainer {
-    height: 4rem;
+    height: 25vh;
     width: 90vh;
+    margin-left: 1vh;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .projectContainer {
-    height: 5rem;
-    width: 90vh;
+    height: 25vh;
+    width: 95vh;
   }
 }
-/* .projectContainer:nth-child(1) {
-  margin-top: 3rem;
-}
-
-.projectContainer:nth-child(2) {
-  margin-top: 3rem;
-} */

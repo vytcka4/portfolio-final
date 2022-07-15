@@ -41,9 +41,31 @@
 
 .imgContainer a {
   border-radius: inherit;
+  width: inherit;
+  height: inherit;
 }
-@media screen and (max-width: 480px) {
+
+@media only screen and (max-width: 360px) {
   .allProjects {
+    width: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 150vh;
+  }
+
+  .projects {
+    font-size: 3rem;
+    margin-bottom: 0;
+    height: 1rem;
+    margin-bottom: 3rem;
+  }
+  .imgContainer a {
+    width: 55vh;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* .allProjects {
     width: 100vh;
     flex-wrap: wrap;
     flex-direction: column;
@@ -58,5 +80,5 @@
   }
   .imgContainer {
     width: 60vh;
-  }
+  } */
 }
