@@ -151,3 +151,9 @@ nav {
     transform: translateY(-3px);
   }
 }
+
+@media only screen and (max-width: 360px) {
+}
+
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+}
