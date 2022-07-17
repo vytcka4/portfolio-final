@@ -44,3 +44,16 @@ p button {
     padding: 0.4rem 0.8rem;
   }
 }
+
+@media only screen and (min-width: 781px) and (max-width: 1200px) {
+  p {
+    font-size: 27px;
+  }
+  p button a {
+    font-size: 21px;
+  }
+
+  p button {
+    padding: 0.8rem 1.6rem;
+  }
+}

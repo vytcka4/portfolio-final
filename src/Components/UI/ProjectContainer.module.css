@@ -30,3 +30,19 @@
     margin-left: 1vw;
   }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 780px) {
+  .projectContainer {
+    height: 30vh;
+    width: 100%;
+    margin-left: 1vw;
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 1200px) {
+  .projectContainer {
+    height: 25vh;
+    width: 47%;
+    margin-left: 1vw;
+  }
+}

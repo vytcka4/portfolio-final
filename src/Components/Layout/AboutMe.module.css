@@ -41,3 +41,28 @@
     gap: 2rem;
   }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 780px) {
+  .about {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300vh;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+}
+@media only screen and (min-width: 781px) and (max-width: 1200px) {
+  .about {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 230vh;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+}

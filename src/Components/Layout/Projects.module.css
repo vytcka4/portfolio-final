@@ -79,4 +79,23 @@
 }
 
 @media only screen and (min-width: 481px) and (max-width: 780px) {
+  .allProjects {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 165vh;
+  }
+  .projects {
+    font-size: 3rem;
+    margin-bottom: 0;
+    height: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 1200px) {
+  .allProjects {
+    gap: 1rem;
+  }
 }

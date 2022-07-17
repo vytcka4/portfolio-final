@@ -94,6 +94,9 @@ main {
 
   .mainInfo {
     width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
 }
 
@@ -104,10 +107,32 @@ main {
     height: 0rem;
   }
 
-  main {
-    width: inherit;
+  .mainInfo {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transform: translateX(2rem);
   }
+}
 
+@media only screen and (min-width: 481px) and (max-width: 820px) {
+  .backgroundIcon {
+    visibility: hidden;
+    width: 0rem;
+    height: 0rem;
+  }
+  .mainInfo {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 821px) and (max-width: 1000px) {
+  .backgroundIcon {
+    visibility: hidden;
+    width: 0rem;
+    height: 0rem;
+  }
   .mainInfo {
     width: 100%;
   }

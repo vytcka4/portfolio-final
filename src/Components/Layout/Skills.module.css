@@ -52,7 +52,49 @@
     width: 100%;
     height: 90vh;
   }
+
+  .other > * {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .main > * {
+    width: 6rem;
+    height: 6rem;
+  }
 }
 
 @media only screen and (min-width: 361px) and (max-width: 480px) {
+  .skills {
+    width: 100%;
+    height: 90vh;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 780px) {
+  .skills {
+    width: 100%;
+    height: 90vh;
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 1200px) {
+  .skills {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .other > * {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .main > * {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .skills h2 {
+    font-size: 3rem;
+  }
 }
