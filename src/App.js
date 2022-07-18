@@ -4,6 +4,7 @@ import Main from "./Components/Layout/Main";
 import Projects from "./Components/Layout/Projects";
 import ABoutMe from "./Components/Layout/AboutMe";
 import FirstPage from "./Components/UI/FIrstPage";
+import ConatactInfo from "./Components/Layout/ContactInfo";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </FirstPage>
       <Projects />
       <ABoutMe />
+      <ConatactInfo />
     </div>
   );
 }
