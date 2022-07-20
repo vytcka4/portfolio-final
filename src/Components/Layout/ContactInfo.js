@@ -1,7 +1,6 @@
 import classes from "./ContactInfo.module.css";
-import { TbBrandLinkedin } from "react-icons/tb";
 
-function ConatactInfo() {
+function ContactInfo() {
   return (
     <div className={classes.contact}>
       <h2>Contact Info : </h2>
@@ -14,4 +13,4 @@ function ConatactInfo() {
   );
 }
 
-export default ConatactInfo;
+export default ContactInfo;
